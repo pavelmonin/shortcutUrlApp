@@ -1,0 +1,39 @@
+﻿@model ShortcutUrlApp.Domain.Url
+
+@{
+    ViewData["Title"] = "Удалить";
+}
+
+<h2>Удалить</h2>
+
+<h3>Вы точно хотите удалить этот элемент?</h3>
+<div>
+    <h4>Url</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Original)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Original)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Shortened)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Shortened)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.ConversionCount)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.ConversionCount)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="Id" />
+        <input type="submit" value="Удалить" class="btn btn-default" /> |
+        <a asp-action="Index">Обратно к Списку</a>
+    </form>
+</div>

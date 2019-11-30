@@ -1,0 +1,12 @@
+C:\Users\User\source\repos\ShortcutUrlApp\ShortcutUrlApp.Data\obj\Debug\netcoreapp2.1\ShortcutUrlApp.Data.csprojAssemblyReference.cache
+C:\Users\User\source\repos\ShortcutUrlApp\ShortcutUrlApp.Data\obj\Debug\netcoreapp2.1\ShortcutUrlApp.Data.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\ShortcutUrlApp\ShortcutUrlApp.Data\obj\Debug\netcoreapp2.1\ShortcutUrlApp.Data.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\ShortcutUrlApp\ShortcutUrlApp.Data\obj\Debug\netcoreapp2.1\ShortcutUrlApp.Data.AssemblyInfo.cs
+C:\Users\User\source\repos\ShortcutUrlApp\ShortcutUrlApp.Data\bin\Debug\netcoreapp2.1\ShortcutUrlApp.Data.deps.json
+C:\Users\User\source\repos\ShortcutUrlApp\ShortcutUrlApp.Data\bin\Debug\netcoreapp2.1\ShortcutUrlApp.Data.dll
+C:\Users\User\source\repos\ShortcutUrlApp\ShortcutUrlApp.Data\bin\Debug\netcoreapp2.1\ShortcutUrlApp.Data.pdb
+C:\Users\User\source\repos\ShortcutUrlApp\ShortcutUrlApp.Data\bin\Debug\netcoreapp2.1\ShortcutUrlApp.Domain.dll
+C:\Users\User\source\repos\ShortcutUrlApp\ShortcutUrlApp.Data\bin\Debug\netcoreapp2.1\ShortcutUrlApp.Domain.pdb
+C:\Users\User\source\repos\ShortcutUrlApp\ShortcutUrlApp.Data\obj\Debug\netcoreapp2.1\ShortcutUrlApp.Data.csproj.CopyComplete
+C:\Users\User\source\repos\ShortcutUrlApp\ShortcutUrlApp.Data\obj\Debug\netcoreapp2.1\ShortcutUrlApp.Data.dll
+C:\Users\User\source\repos\ShortcutUrlApp\ShortcutUrlApp.Data\obj\Debug\netcoreapp2.1\ShortcutUrlApp.Data.pdb

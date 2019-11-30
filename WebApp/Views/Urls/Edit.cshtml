@@ -1,0 +1,76 @@
+﻿@model ShortcutUrlApp.Domain.Url
+
+@{
+    ViewData["Title"] = "Изменить";
+}
+
+<h2>Изменить</h2>
+
+<h4>Url</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <input type="hidden" asp-for="ConversionCount" />
+            <input type="hidden" asp-for="Created" />
+            <div class="form-group">
+                <label asp-for="Original" class="control-label"></label>
+                <input asp-for="Original" class="form-control" />
+                <span asp-validation-for="Original" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Shortened" class="control-label"></label>
+                <input asp-for="Shortened" class="form-control" id="shortenedValue" />
+                <span asp-validation-for="Shortened" class="text-danger"></span>
+            </div>
+            @*<div class="form-group">
+            <label asp-for="ConversionCount" class="control-label"></label>
+            <input asp-for="ConversionCount" class="form-control" />
+            <span asp-validation-for="ConversionCount" class="text-danger"></span>
+        </div>*@
+            <div class="form-group">
+                <input type="submit" value="Сохранить" class="btn btn-default" />
+                <input value="Сгенерировать" id="suggestShortcut" class="btn btn-default" />
+            </div>
+        </form>
+    </div>
+</div>
+<p>@Html.ValidationMessageFor(m => m.Created, null, new { @class = "text-danger" })</p>
+<div>
+    <a asp-action="Index">Обратно к Списку</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+
+    <script>
+        $(document).ready(function () {
+            $("#suggestShortcut").click(function () {
+
+                $.ajax({
+                    type: "POST",
+                    url: "/Urls/getUniqueShortcut",
+                    contentType: "application/json",
+                    dataType: "json",
+                    success: function (response) {
+                        $("#shortenedValue").empty();
+                        $("#shortenedValue").val(response);
+
+                    },
+
+                    failure: function (response) {
+                        alert("failure");
+
+                    },
+                    error: function (response) {
+                        alert("error");
+                    }
+                });
+
+
+            });
+        });
+    </script>
+}

@@ -1,0 +1,55 @@
+﻿@model IEnumerable<ShortcutUrlApp.Domain.Url>
+
+@{
+    ViewData["Title"] = "Главная";
+}
+
+<h2>Urls</h2>
+
+<p>
+    <a asp-action="Create">Добавить Элемент</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Original)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Shortened)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ConversionCount)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Created)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Original)
+            </td>
+            <td>
+                <a href="/@item.Shortened">@Html.DisplayFor(modelItem => item.Shortened)</a>
+            </td>
+            <td>
+                 @Html.DisplayFor(modelItem => item.ConversionCount)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Created)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Изменить</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Подробнее</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Удалить</a>
+            </td>
+        </tr>
+        }
+    </tbody>
+</table>
+

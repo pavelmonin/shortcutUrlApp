@@ -1,0 +1,42 @@
+﻿@model ShortcutUrlApp.Domain.Url
+
+@{
+    ViewData["Title"] = "Подробнее";
+}
+
+<h2>Подробнее</h2>
+
+<div>
+    <h4>Url</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Original)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Original)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Shortened)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Shortened)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.ConversionCount)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.ConversionCount)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Created)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Created)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.Id">Изменить</a> |
+    <a asp-action="Index">Обратно к Списку</a>
+</div>

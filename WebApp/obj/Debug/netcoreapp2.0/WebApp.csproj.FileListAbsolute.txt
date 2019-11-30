@@ -1,0 +1,16 @@
+C:\Users\User\source\repos\ShortcutUrlApp\WebApp\bin\Debug\netcoreapp2.0\WebApp.deps.json
+C:\Users\User\source\repos\ShortcutUrlApp\WebApp\bin\Debug\netcoreapp2.0\WebApp.runtimeconfig.json
+C:\Users\User\source\repos\ShortcutUrlApp\WebApp\bin\Debug\netcoreapp2.0\WebApp.runtimeconfig.dev.json
+C:\Users\User\source\repos\ShortcutUrlApp\WebApp\bin\Debug\netcoreapp2.0\WebApp.dll
+C:\Users\User\source\repos\ShortcutUrlApp\WebApp\bin\Debug\netcoreapp2.0\WebApp.pdb
+C:\Users\User\source\repos\ShortcutUrlApp\WebApp\bin\Debug\netcoreapp2.0\ShortcutUrlApp.Data.dll
+C:\Users\User\source\repos\ShortcutUrlApp\WebApp\bin\Debug\netcoreapp2.0\ShortcutUrlApp.Domain.dll
+C:\Users\User\source\repos\ShortcutUrlApp\WebApp\bin\Debug\netcoreapp2.0\ShortcutUrlApp.Data.pdb
+C:\Users\User\source\repos\ShortcutUrlApp\WebApp\bin\Debug\netcoreapp2.0\ShortcutUrlApp.Domain.pdb
+C:\Users\User\source\repos\ShortcutUrlApp\WebApp\obj\Debug\netcoreapp2.0\WebApp.csprojAssemblyReference.cache
+C:\Users\User\source\repos\ShortcutUrlApp\WebApp\obj\Debug\netcoreapp2.0\WebApp.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\ShortcutUrlApp\WebApp\obj\Debug\netcoreapp2.0\WebApp.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\ShortcutUrlApp\WebApp\obj\Debug\netcoreapp2.0\WebApp.AssemblyInfo.cs
+C:\Users\User\source\repos\ShortcutUrlApp\WebApp\obj\Debug\netcoreapp2.0\WebApp.csproj.CopyComplete
+C:\Users\User\source\repos\ShortcutUrlApp\WebApp\obj\Debug\netcoreapp2.0\WebApp.dll
+C:\Users\User\source\repos\ShortcutUrlApp\WebApp\obj\Debug\netcoreapp2.0\WebApp.pdb
